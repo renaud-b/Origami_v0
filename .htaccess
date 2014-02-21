@@ -1,0 +1,6 @@
+
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^([\w/]+)*$ index.php?c=$1 [L]
+#RewriteRule ^([a-zA-Z0-9])+$ index.php?c=$1&a=$2
